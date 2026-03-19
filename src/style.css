@@ -1,7 +1,7 @@
 
 /* ===== Header ===== */
 
-header {
+header, main {
   padding: 60px 100px;
 }
 
@@ -65,7 +65,7 @@ header {
 }
 
 .header-card p {
-  font-family: 'Roboto';
+  font-family: Roboto;
   color: #181818;
   font-size: 1.5rem;
   font-weight: 100;
@@ -73,7 +73,7 @@ header {
 
 /* header card icons */
 
-.header-card img {
+.icon {
   height: 1.5rem;
 }
 
@@ -87,4 +87,76 @@ header {
 .icon:hover {
   cursor: pointer;
   transform: scale(1.5);
+}
+
+/* ===== Main ===== */
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5rem;
+}
+
+.grid-item-container {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.grid-item-bottom {
+  padding: 1rem;
+}
+
+.image-placeholder {
+  color: white;
+  padding: 3rem;
+  text-align: center;
+  font-family: 'Playfair Display';
+  font-size: 2.5rem;
+}
+
+.icons-row {
+  display: flex;
+  gap: 1rem;
+}
+
+.grid-item-bottom-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Grid image placeholder */
+#img-1 {
+  background-color: #9e1c1c;
+}
+
+#img-2 {
+  background-color: #7c75ca;
+}
+
+#img-3 {
+  background-color: #5e8f4d;
+}
+
+#img-4 {
+  background-color: #c363b4;
+}
+
+#img-5 {
+  background-color: #d88f39;
+}
+
+#img-6 {
+  background-color: #4ba2d2;
+}
+
+/* Grid item bottom text */
+.grid-item-bottom-heading h2{
+  font-family: 'Playfair Display';
+  font-weight: 100;
+  font-size: 1.8rem;
+}
+
+.grid-item-bottom p {
+  font-family: Roboto;
+  font-size: 1.2rem;
 }
