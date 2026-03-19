@@ -1,7 +1,10 @@
+body {
+  margin: 0 auto;
+}
 
 /* ===== Header ===== */
 
-header, main {
+header, main, footer{
   padding: 60px 100px;
 }
 
@@ -160,3 +163,42 @@ header, main {
   font-family: Roboto;
   font-size: 1.2rem;
 }
+
+/* ===== Footer ===== */
+
+footer {
+  background-color: #0891b2;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  font-family: Roboto;
+  font-size: 1.2rem;
+}
+
+footer img {
+  max-width: 45rem;
+}
+
+.contact-icon {
+  height: 2.5rem;
+  fill: white;
+}
+
+.phone-details, .email-details {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding-bottom: 1rem;
+}
+
+/* footer icon row */
+.footer-icon-row {
+  display: flex;
+  height: 2rem;
+  gap: 1.5rem;
+}
+
+.footer-icon {
+  fill: white;
+}
+
