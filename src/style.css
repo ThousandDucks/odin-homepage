@@ -1,10 +1,16 @@
 
+/* ===== Header ===== */
+
+header {
+  padding: 60px 100px;
+}
+
 .header-background {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
-  height: 40vh; 
+  height: 90vh; 
   background-color: #0891b2;
   transform-origin: top left;
   transform: skewY(-10deg); 
@@ -12,3 +18,73 @@
   z-index: -1;
 }
 
+/* header main content */
+
+.header-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-card {
+  background-color: white;
+  padding: 50px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  max-width: 47rem;
+}
+
+.header-image-container img {
+  max-width: 2000px;   
+  width: 100%;         
+  height: auto;
+  display: block;     
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Header image text */
+
+.header-image-container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.header-image-text {
+  position: absolute;    
+  bottom: 0;              
+  left: 0;                
+  width: 100%;                
+  font-size: 70px;
+}
+
+/* Header text settings */
+.title {
+  font-family: 'Playfair Display';
+  font-weight: 100;
+  font-size: 3rem;
+}
+
+.header-card p {
+  font-family: 'Roboto';
+  color: #181818;
+  font-size: 1.5rem;
+  font-weight: 100;
+}
+
+/* header card icons */
+
+.header-card img {
+  height: 1.5rem;
+}
+
+.header-icons{ 
+  display: flex;
+  justify-content: end;
+  gap: 1.5rem;
+  padding-top: 2.5rem;
+}
+
+.icon:hover {
+  cursor: pointer;
+  transform: scale(1.5);
+}
