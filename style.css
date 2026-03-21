@@ -202,3 +202,7 @@ footer img {
   fill: white;
 }
 
+.footer-icon:hover {
+  cursor: pointer;
+  transform: scale(1.5);
+}
